@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030B7F2D22B95A31006200B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030B7F2922B95A31006200B6 /* Main.storyboard */; };
+		030B7F2E22B95A31006200B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030B7F2B22B95A31006200B6 /* LaunchScreen.storyboard */; };
+		030B7F3322B95AFC006200B6 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 030B7F3122B95AFC006200B6 /* Gotham-Bold.otf */; };
+		030B7F3422B95AFC006200B6 /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 030B7F3222B95AFC006200B6 /* Gotham-Book.otf */; };
+		030B7F3822B95EA5006200B6 /* bose_logo_blackbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 030B7F3722B95EA5006200B6 /* bose_logo_blackbox.png */; };
+		030B7F3C22B95FAE006200B6 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B7F3B22B95FAE006200B6 /* Encryption.swift */; };
 		039D95A022B958300077421E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039D959F22B958300077421E /* AppDelegate.swift */; };
 		039D95A222B958300077421E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039D95A122B958300077421E /* ViewController.swift */; };
-		039D95A522B958300077421E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039D95A322B958300077421E /* Main.storyboard */; };
 		039D95A722B958310077421E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039D95A622B958310077421E /* Assets.xcassets */; };
-		039D95AA22B958310077421E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039D95A822B958310077421E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030B7F2A22B95A31006200B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		030B7F2C22B95A31006200B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		030B7F3122B95AFC006200B6 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Bold.otf"; path = "../../../../Downloads/Gotham_OTF_Fonts/Gotham-Bold.otf"; sourceTree = "<group>"; };
+		030B7F3222B95AFC006200B6 /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Book.otf"; path = "../../../../Downloads/Gotham_OTF_Fonts/Gotham-Book.otf"; sourceTree = "<group>"; };
+		030B7F3722B95EA5006200B6 /* bose_logo_blackbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bose_logo_blackbox.png; path = "../../../../Downloads/Bose_LogoPack_120618/Company Logos/Box Logo/screen/png/bose_logo_blackbox.png"; sourceTree = "<group>"; };
+		030B7F3B22B95FAE006200B6 /* Encryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
 		039D959C22B958300077421E /* Cypher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cypher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		039D959F22B958300077421E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		039D95A122B958300077421E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		039D95A422B958300077421E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		039D95A622B958310077421E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		039D95A922B958310077421E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		039D95AB22B958310077421E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,11 +62,15 @@
 		039D959E22B958300077421E /* Cypher */ = {
 			isa = PBXGroup;
 			children = (
+				030B7F3B22B95FAE006200B6 /* Encryption.swift */,
+				030B7F3722B95EA5006200B6 /* bose_logo_blackbox.png */,
+				030B7F3122B95AFC006200B6 /* Gotham-Bold.otf */,
+				030B7F3222B95AFC006200B6 /* Gotham-Book.otf */,
+				030B7F2B22B95A31006200B6 /* LaunchScreen.storyboard */,
+				030B7F2922B95A31006200B6 /* Main.storyboard */,
 				039D959F22B958300077421E /* AppDelegate.swift */,
 				039D95A122B958300077421E /* ViewController.swift */,
-				039D95A322B958300077421E /* Main.storyboard */,
 				039D95A622B958310077421E /* Assets.xcassets */,
-				039D95A822B958310077421E /* LaunchScreen.storyboard */,
 				039D95AB22B958310077421E /* Info.plist */,
 			);
 			path = Cypher;
@@ -122,9 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039D95AA22B958310077421E /* LaunchScreen.storyboard in Resources */,
+				030B7F3322B95AFC006200B6 /* Gotham-Bold.otf in Resources */,
+				030B7F2E22B95A31006200B6 /* LaunchScreen.storyboard in Resources */,
+				030B7F3422B95AFC006200B6 /* Gotham-Book.otf in Resources */,
+				030B7F3822B95EA5006200B6 /* bose_logo_blackbox.png in Resources */,
 				039D95A722B958310077421E /* Assets.xcassets in Resources */,
-				039D95A522B958300077421E /* Main.storyboard in Resources */,
+				030B7F2D22B95A31006200B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030B7F3C22B95FAE006200B6 /* Encryption.swift in Sources */,
 				039D95A222B958300077421E /* ViewController.swift in Sources */,
 				039D95A022B958300077421E /* AppDelegate.swift in Sources */,
 			);
@@ -143,18 +159,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		039D95A322B958300077421E /* Main.storyboard */ = {
+		030B7F2922B95A31006200B6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				039D95A422B958300077421E /* Base */,
+				030B7F2A22B95A31006200B6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		039D95A822B958310077421E /* LaunchScreen.storyboard */ = {
+		030B7F2B22B95A31006200B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				039D95A922B958310077421E /* Base */,
+				030B7F2C22B95A31006200B6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
